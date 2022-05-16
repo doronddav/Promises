@@ -45,7 +45,7 @@ const uploadThirdFile = new Promise(function (resolve, reject) {
 
 console.log(num);
 
-setInterval(2, 1000);
+setInterval(printCondition, 1000);
 function printCondition() {
   console.log(uploadFirstFile, uploadsecondFile, uploadThirdFile);
 }
